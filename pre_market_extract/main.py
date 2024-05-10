@@ -1,8 +1,5 @@
 import pandas as pd
-from nsepython import nse_eq, fnolist, logging
-
-logging.basicConfig(level=logging.INFO)
-
+from nsepython import nse_eq, fnolist
 
 symbols = pd.DataFrame(fnolist())[0]
 
