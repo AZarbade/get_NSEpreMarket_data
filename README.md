@@ -27,5 +27,5 @@ Script needs to be shared, therefore, a git repo.
 
 5. To run the script:
     ```bash
-    poetry run pre_market_export/main.py
+    poetry run python pre_market_extract/main.py
     ```
